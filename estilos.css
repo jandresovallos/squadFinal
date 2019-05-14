@@ -27,6 +27,7 @@ header{
 }
 .divfinal{
     background: #27C7FF;
+    box-shadow: 0px 3px 6px rgba(0,0,0, 0.16);
 }
 .pfinal{
     font-family: 'Quicksand', sans-serif;
@@ -34,4 +35,110 @@ header{
     color: #ffffff;
     text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
     padding: 0;
+}
+
+/* ########### SECCIÒN 2 ############ */
+
+.parte2{
+    min-height: 784px;
+    border: 1px solid black;
+}
+.parte2 > div {
+    border: 1px solid purple;
+}
+.parrafo2{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    color: #5d5d5d;
+    margin: 0 39px 0 39px;
+}
+.dashboard{
+    padding: 0px;
+}
+.dash{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 35px;
+    color: #015C9D;
+    letter-spacing: 3px;
+    line-height: 100%;
+}
+.lorem {
+    font-family: 'Quicksand:300', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    color: #5d5d5d;
+    margin: 0 62px 0 62px;
+}
+
+/* ########### SECCIÒN 3 ############ */
+
+.parte3{
+    min-height: 2476px;
+}
+.parte3 > div {
+    border: 1px solid red;
+}
+.fondoList{
+    min-height: 494px;
+    background: #27C7FF;
+    box-shadow: 0px 3px 6px rgba(0,0,0, 0.16);
+}
+.toDo{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 35px;
+    color: #015C9D;
+    letter-spacing: 3px;
+    line-height: 100%;
+}
+.parrafo3{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    color: #5d5d5d;
+    /* margin: 0 62px 0 62px; */
+}
+.fondoBurdown{
+    min-height: 410px;
+    background: #27C7FF;
+    box-shadow: 0px 3px 6px rgba(0,0,0, 0.16);
+}
+.pburdown{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 35px;
+    color: #015C9D;
+    letter-spacing: 3px;
+    line-height: 100%;
+}
+.parrafo4{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    color: #5d5d5d;
+}
+.fondoNotifications{
+    min-height: 486px;
+    background: #27C7FF;
+}
+.pnotifications{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 35px;
+    color: #015C9D;
+    letter-spacing: 3px;
+    line-height: 100%;
+}
+.parrafo5{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #5d5d5d;
+}
+
+/* ########### SECCIÒN 4 ############ */
+
+.parte4{
+    min-height: 919px;
+}
+.parte4 > div{
+    border: 1px solid lightseagreen;
 }
