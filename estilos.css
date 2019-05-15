@@ -142,3 +142,162 @@ header{
 .parte4 > div{
     border: 1px solid lightseagreen;
 }
+.pcards{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 35px;
+    color: #015C9D;
+    letter-spacing: 3px;
+    line-height: 100%;
+}
+.parrafo6{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #5d5d5d;
+}
+.pcalendar{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 35px;
+    color: #015C9D;
+    letter-spacing: 3px;
+    line-height: 100%;
+}
+.parrafo7{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #5d5d5d;
+}
+
+/* ########### SECCIÒN 5 ############ */
+.parte5{
+    min-height: 1150px;
+}
+.fondoTask{
+    min-height: 323px;
+    background: #27C7FF;
+    box-shadow: 0px 3px 6px rgba(0,0,0, 0.16);
+}
+.imgTask{
+    width: 358px;
+    height:234px;
+}
+.pTask{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 35px;
+    color: #015C9D;
+    letter-spacing: 3px;
+    line-height: 100%;
+}
+.parrafo8{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #5d5d5d;
+}
+.fondoTeam{
+    min-height: 218px;
+    background: #27C7FF;
+    box-shadow: 0px 3px 6px rgba(0,0,0, 0.16);
+}
+.pTeam{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 35px;
+    color: #015C9D;
+    letter-spacing: 3px;
+    line-height: 100%;
+}
+.parrafo9{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #5d5d5d;
+}
+
+/* ########### SECCIÒN 6 ############ */
+
+.parte6{
+    min-height: 919px;
+}
+.parte6 > div {
+    border: 1px solid lightslategray;
+}
+.ptaskview {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    color: #015C9D;
+    letter-spacing: 2px;
+    line-height: 100%;
+}
+.parrafo10{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #5d5d5d;
+}
+
+/* ########### SECCIÒN 7 ############ */
+
+.parte7{
+    min-height: 919px;
+    background: #27C7FF;
+}
+.pProject{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 35px;
+    color: #ffffff;
+    letter-spacing: 3px;
+    line-height: 100%;
+}
+.parrafo11{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+/* ########### SECCIÒN 8 ############ */
+
+.parte8{
+    min-height: 919px;
+}
+/* .parte8 > div {
+    border:1px solid black;
+} */
+.encabezadoPie{
+    min-height: 131px;
+    background:  #27C7FF;
+}
+.cuerpo{
+    min-height: 657px;;
+}
+.pfrase{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 32px;
+    color: #015C9D;
+    line-height: 100%;
+}
+.parrafo12{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #5d5d5d;
+    line-height: 150%;
+}
+
+/* ########### SECCIÒN 9 ############ */
+
+.parte9{
+    min-height: 919px;
+    width: 100%;
+}  
+.parte9 > div {
+    border:1px solid blue;
+    background: gray;
+}
