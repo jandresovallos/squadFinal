@@ -7,15 +7,16 @@
     width: 100%;
     background: #cccccc;
 }
-header > div{
+/* header > div{
     border: 1px solid lightblue;
-}
+} */
 header{
     min-height: 81px;
-    border: 1px solid black;
+    box-shadow: 0px 3px 6px rgba(0,0,0, 0.16);
+
 }
-.parte1 > div {
-    border: 1px solid lightgreen;
+.parte1 >{
+    width: 100%;
 }
 .opciones{
     margin: 0 5px 0 5px;
@@ -41,11 +42,11 @@ header{
 
 .parte2{
     min-height: 784px;
-    border: 1px solid black;
+    
 }
-.parte2 > div {
+/* .parte2 > div {
     border: 1px solid purple;
-}
+} */
 .parrafo2{
     font-family: 'Quicksand', sans-serif;
     font-size: 20px;
@@ -63,11 +64,12 @@ header{
     line-height: 100%;
 }
 .lorem {
-    font-family: 'Quicksand:300', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-weight: lighter;
     font-size: 20px;
     color: #5d5d5d;
     margin: 0 62px 0 62px;
+    margin: 0 10% 0 10%;
 }
 
 /* ########### SECCIÒN 3 ############ */
@@ -75,9 +77,9 @@ header{
 .parte3{
     min-height: 2476px;
 }
-.parte3 > div {
+/* .parte3 > div {
     border: 1px solid red;
-}
+} */
 .fondoList{
     min-height: 494px;
     background: #27C7FF;
@@ -95,6 +97,7 @@ header{
     font-weight: 100;
     font-size: 20px;
     color: #5d5d5d;
+    margin: 0 8% 0 8%;
     /* margin: 0 62px 0 62px; */
 }
 .fondoBurdown{
@@ -114,6 +117,7 @@ header{
     font-weight: lighter;
     font-size: 20px;
     color: #5d5d5d;
+    margin: 0 10% 0 10%;
 }
 .fondoNotifications{
     min-height: 486px;
@@ -125,6 +129,7 @@ header{
     color: #015C9D;
     letter-spacing: 3px;
     line-height: 100%;
+    margin: 0 10% 0 10%;
 }
 .parrafo5{
     font-family: 'Quicksand', sans-serif;
@@ -132,6 +137,7 @@ header{
     font-size: 20px;
     letter-spacing: 1px;
     color: #5d5d5d;
+    margin: 0 10% 0 10%;
 }
 
 /* ########### SECCIÒN 4 ############ */
@@ -139,9 +145,9 @@ header{
 .parte4{
     min-height: 919px;
 }
-.parte4 > div{
+/* .parte4 > div{
     border: 1px solid lightseagreen;
-}
+} */
 .pcards{
     font-family: 'Quicksand', sans-serif;
     font-size: 35px;
@@ -155,6 +161,7 @@ header{
     font-size: 15px;
     letter-spacing: 1px;
     color: #5d5d5d;
+    margin: 0 10% 0 10%;
 }
 .pcalendar{
     font-family: 'Quicksand', sans-serif;
@@ -169,6 +176,7 @@ header{
     font-size: 15px;
     letter-spacing: 1px;
     color: #5d5d5d;
+    margin: 0 10% 0 10%;
 }
 
 /* ########### SECCIÒN 5 ############ */
@@ -197,6 +205,7 @@ header{
     font-size: 20px;
     letter-spacing: 1px;
     color: #5d5d5d;
+    margin: 0 10% 0 10%;
 }
 .fondoTeam{
     min-height: 218px;
@@ -216,6 +225,7 @@ header{
     font-size: 20px;
     letter-spacing: 1px;
     color: #5d5d5d;
+    margin: 0 10% 0 10%;
 }
 
 /* ########### SECCIÒN 6 ############ */
@@ -223,15 +233,16 @@ header{
 .parte6{
     min-height: 919px;
 }
-.parte6 > div {
+/* .parte6 > div {
     border: 1px solid lightslategray;
-}
+} */
 .ptaskview {
     font-family: 'Quicksand', sans-serif;
     font-size: 20px;
     color: #015C9D;
     letter-spacing: 2px;
     line-height: 100%;
+    margin-left: 30%; 
 }
 .parrafo10{
     font-family: 'Quicksand', sans-serif;
@@ -239,6 +250,7 @@ header{
     font-size: 20px;
     letter-spacing: 1px;
     color: #5d5d5d;
+    margin: 0 10% 0 10%; 
 }
 
 /* ########### SECCIÒN 7 ############ */
@@ -281,6 +293,7 @@ header{
     font-size: 32px;
     color: #015C9D;
     line-height: 100%;
+    margin: 0 5% 0 5%; 
 }
 .parrafo12{
     font-family: 'Quicksand', sans-serif;
@@ -289,6 +302,7 @@ header{
     letter-spacing: 1px;
     color: #5d5d5d;
     line-height: 150%;
+    margin: 0 10% 0 10%; 
 }
 
 /* ########### SECCIÒN 9 ############ */
@@ -297,7 +311,56 @@ header{
     min-height: 919px;
     width: 100%;
 }  
-.parte9 > div {
+/* .parte9 > div {
     border:1px solid blue;
-    background: gray;
+    
+} */
+.pView {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    color: #015C9D;
+    letter-spacing: 2px;
+    line-height: 100%;
 }
+.parrafo13{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #5d5d5d;
+    line-height: 150%;
+    margin: 0 10% 0 10%; 
+}
+
+/* ########### SECCIÒN 9 ############ */
+
+.parte10{
+    width: 100%;
+    min-height: 919px;
+}
+/* .parte10 > div {
+    border: 1px solid maroon;
+} */
+.encabezado10{
+    min-height: 237,92px;
+}
+.divEncabezado10{
+    min-height: 431.92px;
+}
+.pEncabezado10{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #5d5d5d;
+    line-height: 150%;
+    margin: 0 10% 0 10%; 
+}
+.pie10{
+    background: #DCE9F7;
+    min-height: 250.08px;
+}
+/* .imgEncabezado10{
+    min-width: 414px;
+    min-height: 237px;
+} */
