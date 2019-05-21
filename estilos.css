@@ -57,7 +57,8 @@ header{
     padding: 0px;
 }
 .dash{
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand:700', sans-serif;
+    font-weight: bold;
     font-size: 35px;
     color: #015C9D;
     letter-spacing: 3px;
@@ -86,7 +87,8 @@ header{
     box-shadow: 0px 3px 6px rgba(0,0,0, 0.16);
 }
 .toDo{
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand-light', sans-serif;
+    
     font-size: 35px;
     color: #015C9D;
     letter-spacing: 3px;
@@ -106,7 +108,7 @@ header{
     box-shadow: 0px 3px 6px rgba(0,0,0, 0.16);
 }
 .pburdown{
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand:', sans-serif;
     font-size: 35px;
     color: #015C9D;
     letter-spacing: 3px;
@@ -364,3 +366,14 @@ header{
     min-width: 414px;
     min-height: 237px;
 } */
+
+@font-face {
+    font-family: "Quicksand";
+    font-weight: 700; 
+    src: url("https://fonts.googleapis.com/css?family=Quicksand:700&display=swap");
+    }
+    @font-face {
+        font-family: "Quicksand-light";
+        font-weight: 300; 
+        src: url("https://fonts.googleapis.com/css?family=Quicksand:300&display=swap");
+        }
